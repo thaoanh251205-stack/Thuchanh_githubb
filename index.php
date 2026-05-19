@@ -38,6 +38,5 @@
             </tr>
         </thead>
         <tbody></tbody>
-        echo "Milo Den Da da o day";
 </body>
 </html>
