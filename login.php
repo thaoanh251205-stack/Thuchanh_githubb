@@ -28,3 +28,5 @@ if ($result->num_rows > 0) {
         "message" => "Invalid username or password"
     ]);
 }
+
+$conn->close();

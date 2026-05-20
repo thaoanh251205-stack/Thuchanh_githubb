@@ -12,6 +12,7 @@ if (!isset($data['MaSV'])) {
     exit;
 }
 
+
 $masv = $conn->real_escape_string($data['MaSV']);
 
 $sql = "DELETE FROM sv WHERE MaSV='$masv'";
@@ -27,3 +28,5 @@ if ($conn->query($sql) === TRUE) {
         "message" => "Xóa sinh viên thất bại! Lỗi: " . $conn->error
     ]);
 }
+
+$conn->close();
