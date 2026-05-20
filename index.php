@@ -38,6 +38,10 @@
             </tr>
         </thead>
         <tbody></tbody>
+<<<<<<< HEAD
         echo "Nhanh B";
+=======
+        echo "Nhanh C";
+>>>>>>> nhanh-C
 </body>
 </html>
