@@ -25,6 +25,6 @@ if ($result->num_rows > 0) {
 
     echo json_encode([
         "status" => false,
-        "message" => "Invalid username or password"
+        "message" => "Milo"
     ]);
 }
